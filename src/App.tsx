@@ -1,5 +1,7 @@
+import TodoList from "@components/TodoList";
+
 const App = () => {
-  return <div>Hello world!</div>;
+  return <TodoList />;
 };
 
 export default App;
