@@ -1,0 +1,230 @@
+.contact-section {
+  margin-top: 50px;
+  text-align: center;
+  color: var(--text-white);
+
+  .contact-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--brand-name-200);
+
+    margin-bottom: 10px; /* Giảm từ 20px xuống 10px */
+
+    .line {
+      width: 60px;
+      height: 4px;
+      background: rgb(130, 134, 123);
+      margin: auto;
+    }
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 10px;
+  }
+
+  .contact-form-wrapper {
+    flex: 1;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: 550px; /* Giới hạn chiều rộng để không quá lớn trên màn hình rộng */
+    padding: 2rem;
+    background: var(--background-contact);
+    border-radius: 8px;
+    text-align: left;
+
+    .title {
+      font-size: 20px;
+      color: var(--brand-name-100);
+    }
+
+    .description {
+      font-size: 14px;
+      color: var(--text-white);
+      margin-bottom: 15px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: var(--boder-input);
+        border-radius: 5px;
+        background: var(--background-text-input);
+        color: var(--text-white);
+      }
+
+      textarea {
+        resize: none;
+      }
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 10px;
+
+      color: var(--text-white);
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateX(5px);
+      }
+    }
+  }
+
+  .contact-info {
+    flex: 1;
+    min-width: 40%;
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+    font-size: 18px;
+
+    p {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      margin-top: 10px;
+
+      a {
+        font-size: 24px;
+        color: var(--resize-button);
+        transition: 0.3s;
+
+        &:hover {
+          color: var(--resize-button);
+        }
+      }
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-form-wrapper {
+      min-width: 100%;
+    }
+
+    .contact-form {
+      max-width: 90%; /* Form chiếm gần hết chiều rộng màn hình nhỏ */
+    }
+
+    .contact-info {
+      min-width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+
+      .social-icons {
+        justify-content: center;
+      }
+    }
+  }
+}
+.required {
+  color: var(--text-pink-100);
+  font-size: 0.8em;
+  margin-left: 5px;
+  font-weight: 400;
+}
+.contact-link {
+  text-decoration: none;
+  color: var(--text-white);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition:
+    color 0.3s ease,
+    transform 0.2s;
+
+  &:hover {
+    color: var(--brand-social); // Màu hồng khi hover
+    transform: scale(1.1);
+  }
+}
+
+.icon {
+  font-size: 24px;
+  &:hover {
+    color: var(--brand-social); // Màu hồng khi hover
+    transform: scale(1.1);
+  }
+}
+
+.contact-info p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.submit-btn-wrapper {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  margin-top: 16px; /* Thêm khoảng cách với input trên */
+}
+.lottie-container {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center;
+  text-align: center; /* Căn giữa theo chiều dọc nếu cần */
+  max-width: 70%; /* Đảm bảo nó chiếm toàn bộ không gian của Col */
+  margin-bottom: 3px; /* Tạo khoảng cách giữa hộp thư và thông tin liên hệ */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1); // Phóng to nhẹ khi hover
+    // opacity: 0.8;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lottie-container {
+    max-width: 90%; /* Tăng kích thước trên mobile */
+  }
+}
+
+/* Điều chỉnh kích thước trên màn hình nhỏ */
+@media (max-width: 768px) {
+  .lottie-container {
+    max-width: 40%; /* Tăng kích thước trên mobile */
+  }
+}
+
+@media (max-width: 576px) {
+  .lottie-container {
+    max-width: 50%; /* Tăng kích thước trên mobile */
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "appHeader": {
+    "brand": "ShinTran",
+    "home": "Trang chủ",
+    "project": "Dự án",
+    "contact": "Liên hệ",
+    "about": "Chi tiết bản thân",
+    "darkMode": "Chế độ tối",
+    "lightMode": "Chế độ sáng",
+    "language": "Ngôn ngữ",
+    "language1": "Tiếng Anh",
+    "language2": "Tiếng Việt"
+  },
+  "heroSection": {
+    "greeting": "Xin chào!",
+    "im": "Tôi là",
+
+    "after": "",
+
+    "job1": "Lập trình viên Frontend",
+    "job2": "Tương lai lập trình viên Fullstack ",
+    "job3": "Luôn học hỏi",
+    "exp": "Kỹ năng",
+    "cv": "Xem CV"
+  },
+  "introSection": {
+    "about": "KHÁI QUÁT",
+    "and4": "và",
+    "and": "và",
+    "and1": "tinh tế, mượt mà",
+    "and2": "hiệu suất cao.",
+    "heading1": "🔥 Tôi là người đang theo đuổi lĩnh vực Frontend, không ngừng học hỏi để mang đến trải nghiệm người dùng tốt nhất trên nền tảng web.",
+    "heading2": "Tôi đã tự học để nắm được các kiến thức về",
+    "heading3": "🎯 Mục tiêu của tôi là trở thành một ",
+    "heading4": "Frontend Developer chuyên nghiệp.",
+    "heading5": "Tôi luôn sẵn sàng học hỏi và thử thách bản thân để tạo ra các giao diện",
+    "edu": "Học vấn",
+    "job": "Khoa Công nghệ thông tin",
+    "school": "Trường Cao Đẵng Kỹ Thuật Cao Thắng",
+    "school1": "(Hệ chính quy)"
+  },
+
+  "skill": {
+    "title": "Kỹ năng"
+  },
+
+  "contact": {
+    "title": "LIÊN HỆ",
+
+    "name": "Họ và tên:",
+    "mail": "Email:",
+    "mes": "Tin nhắn:",
+    "send": "Gửi tin nhắn ",
+    "title2": "Liên hệ với tôi",
+    "title3": "Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hay cơ hội hợp tác nào!",
+    "required": "(*Bắt buộc)"
+  },
+  "toast": {
+    "success": "Tin nhắn đã được gửi thành công! Vui lòng kiểm tra hộp thư đến, thư rác hoặc spam của bạn.",
+    "error": "Gửi tin nhắn thất bại!",
+    "mes": "Đang gửi tin nhắn...",
+    "required": "Vui lòng nhập đầy đủ thông tin!"
+  },
+
+  "project": {
+    "title": "Những dự án gần đây của tôi",
+    "title2": "Từ những kiến thức Front End học được qua các kênh trực tuyến như",
+    "title3": ",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
+    "title4": "",
+
+    "portfolio": {
+      "title": "Portfolio cá nhân - (React＋Typescript)",
+      "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, modal hiển thị chi tiết dự án và responsive trên mọi thiết bị.",
+      "modal": {
+        "demo": "Demo",
+        "demoLink": "Link demo dự án",
+        "sourceCode": "Link source code:",
+        "detailTitle": "Mô tả chi tiết",
+        "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Anh – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Hiển thị chi tiết dự án bằng modal, slide ảnh<br/>🔹 Giao diện đẹp với React-Bootstrap",
+
+        "inspirationTitle": "Cảm hứng phát triển",
+        "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+        "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+        "technologiesTitle": "Công nghệ sử dụng",
+        "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+
+        "tech": {
+          "core": "🚀 Công nghệ chính",
+          "ui": "🎨 Giao diện & UI",
+          "intl": "🌍 Quốc tế hóa & SEO",
+          "utils": "✉️ Tương tác & Tiện ích"
+        },
+        "whyTech": "Lý do lựa chọn công nghệ",
+        "why": {
+          "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
+          "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
+          "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
+          "4": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
+          "5": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
+          "6": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm.",
+          "7": "<strong>EmailJS</strong>: Gửi email không cần backend.",
+          "8": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
+          "9": "<strong>React Router DOM</strong>: Điều hướng mượt mà."
+        }
+      }
+    },
+
+    "todo": {
+      "title": "Todo App - (React + Typescript)",
+      "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",
+
+      "modal": {
+        "detailDescription": "Ứng dụng to-do nhỏ gọn cho quản lý công việc hàng ngày.<br/>Một số tính năng chính:<br/>🔹 Thêm nhiệm vụ (kiểm tra trùng lặp, kí tự trống)<br/>🔹 Chỉnh sửa nhiệm vụ<br/>🔹 Xoá nhiệm vụ (có xác nhận trước khi xoá)<br/>🔹Đánh dấu đã/chưa hoàn thành<br/>🔹 Lưu trữ bằng Local Storage<br/>🔹 Kéo & thả  sắp xếp thứ tự <br/>🔹 Hiển thị tốt trên mọi thiết bị ",
+        "inspirationDescription1": "Dự án được thực hiện trong quá trình học React & TypeScript nhằm rèn luyện thao tác với state, props và hook.",
+        "inspirationDescription2": "Đây cũng là cơ hội để nâng cao kỹ năng xử lý sự kiện và quản lý dữ liệu hiệu quả.",
+        "why": {
+          "1": "<strong>React + TypeScript</strong>: Quản lý logic rõ ràng, dễ mở rộng.",
+          "2": "<strong>React Hooks</strong>: Quản lý trạng thái UI hiệu quả.",
+          "3": "<strong>SCSS (CSS Modules)</strong>: Tách biệt style, tránh trùng class.",
+          "4": "<strong>Google Fonts</strong>: Giao diện hiện đại, dễ đọc.",
+          "5": "<strong>LocalStorage</strong>: Lưu dữ liệu người dùng không cần backend.",
+          "6": "<strong>@hello-pangea/dnd</strong>: Kéo thả sắp xếp trực quan.",
+          "7": "<strong>Prettier</strong>: Giữ code sạch, đồng nhất.",
+          "8": "<strong>ESLint</strong>: Phát hiện lỗi sớm, chuẩn hóa code."
+        },
+        "tech": {
+          "core": "🚀 Công nghệ chính",
+          "ui": "🎨 Giao diện & UI",
+          "intl": "📦 Thư viện & Tiện ích",
+          "utils": "🧹 Chất lượng mã nguồn"
+        }
+      }
+    },
+
+    "library": {
+      "title": "Website bán hàng - (HTML+Sass+Javascript)",
+      "description": "Website bán hàng gồm nhiều trang được xây dựng dựa trên thiết kế Figma, hỗ trợ responsive, chế độ sáng/tối, tối ưu SEO, hiệu suất tải trang và mega menu hiện đại.",
+      "modal": {
+        "demo": "Demo",
+        "demoLink": "Link demo dự án",
+        "sourceCode": "Link source code:",
+        "detailTitle": "Mô tả chi tiết",
+
+        "detailDescription": "Grocery Mart là website thương mại điện tử mô phỏng giao diện thực tế của một trang bán hàng chuyên nghiệp.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang: Trang chủ, sản phẩm, chi tiết, giỏ hàng, hồ sơ,...<br/>🔹 Chuyển từ thiết kế Figma<br/>🔹 Tương thích mọi thiết bị<br/>🔹 Hỗ trợ chế độ sáng / tối <br/>🔹 Tối ưu SEO<br/>🔹  Code sạch,  dễ mở rộng – không dùng framework",
+        "inspirationTitle": "Cảm hứng phát triển",
+        "inspirationDescription1": "Grocery Mart được thực hiện nhằm luyện tập tư duy thiết kế giao diện bán hàng chuyên nghiệp khi chưa sử dụng framework.",
+        "inspirationDescription2": "Dự án là bước đệm giúp tôi rèn kỹ năng <strong>HTML, CSS, JavaScript</strong> và nâng cao tư duy responsive, tối ưu code và SEO.",
+        "technologiesTitle": "Công nghệ sử dụng",
+        "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+
+        "tech": {
+          "core": "🚀 Công nghệ chính",
+          "ui": "🎨 Giao diện & UI",
+          "intl": "🌍 SEO & Tối ưu",
+          "utils": "💾 Tiện ích"
+        },
+        "whyTech": "Lý do lựa chọn công nghệ",
+        "why": {
+          "1": "<strong>HTML5</strong>: Semantic rõ ràng, hỗ trợ SEO.",
+          "2": "<strong>SCSS</strong>: Quản lý style hiệu quả với biến, mixin.",
+          "3": "<strong>JavaScript (ES6+)</strong>: Tạo tương tác linh hoạt toggle, tab, dropdown... ",
+          "4": "<strong>Custom Grid SCSS</strong>: Chủ động thiết kế layout, không cần framework.",
+          "5": "<strong>Google Fonts</strong>: Tăng tính thẩm mỹ.",
+          "6": "<strong>Meta + Canonical tag</strong>: Tối ưu SEO và tránh trùng nội dung.",
+          "7": "<strong>LocalStorage</strong>: Lưu trạng thái theme và cache template HTML."
+        }
+      }
+    },
+    "todo2": {
+      "title": "Thư viện UI modal tự thiết kế - (Javascript)",
+      "description": "Thư viện nhẹ (~2KB), thuần JavaScript, không phụ thuộc thư viện ngoài, hỗ trợ tạo nhanh các modal phổ biến, chạy mượt trên mọi trình duyệt.",
+      "modal": {
+        "demo": "Demo",
+        "demoLink": "Link demo dự án",
+        "sourceCode": "Link source code:",
+        "detailTitle": "Mô tả chi tiết",
+
+        "detailDescription": "Popzy là thư viện modal nhẹ  được xây dựng bằng JavaScript thuần, giúp ứng dụng tạo nhanh các loại modal phổ biến trên mọi trình duyệt hiện đại.<br/>Một số tính năng chính:<br/>🔹 Không phụ thuộc thư viện ngoài<br/>🔹 Tùy biến bằng CSS / hỗ trợ CSS transition<br/>🔹 API đơn giản: open(), close(), setContent(), addFooterButton()...<br/>🔹 Hỗ trợ các loại modal: cơ bản, có nút, nội dung dài, nhúng YouTube, nhiều modal cùng lúc<br/>🔹 Tùy chọn scroll lock, đóng modal bằng overlay, nút, phím Escape<br/>🔹 Dễ tích hợp vào mọi dự án",
+
+        "inspirationTitle": "Cảm hứng phát triển",
+        "inspirationDescription1": "Dự án ra đời từ nhu cầu tự tay xây dựng một thư viện modal đơn giản, nhẹ, dễ dùng và không phụ thuộc thư viện ngoài.",
+        "inspirationDescription2": "Tôi muốn rèn kỹ năng tư duy component, tối ưu trải nghiệm người dùng và hiểu rõ cách hoạt động của modal bằng <strong>JavaScript thuần</strong>.",
+        "technologiesTitle": "Công nghệ sử dụng",
+
+        "tech": {
+          "core": "🚀 Công nghệ chính",
+          "ui": "💻 Công cụ Dev"
+        },
+        "whyTech": "Lý do lựa chọn công nghệ",
+        "why": {
+          "1": "<strong>JavaScript (ES6+)</strong>: Xây toàn bộ logic modal, không cần thư viện ngoài.",
+          "2": "<strong>HTML5</strong>: Cấu trúc rõ ràng, dễ tích hợp.",
+          "3": "<strong>CSS</strong>: Tùy biến giao diện, hiệu ứng.",
+          "4": "<strong>Terser</strong>: Nén file JS giúp giảm dung lượng thư viện.",
+          "5": "<strong>CSSO</strong>: Tối ưu file CSS để tải nhanh hơn."
+        }
+      }
+    },
+    "modal": {
+      "demo": "Demo",
+      "demoLink": "Link demo dự án",
+      "sourceCode": "Link source code:",
+      "detailTitle": "Mô tả chi tiết",
+      "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
+
+      "inspirationTitle": "Cảm hứng phát triển",
+      "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+      "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+      "technologiesTitle": "Công nghệ sử dụng",
+      "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+
+      "tech": {
+        "core": "🚀 Công nghệ chính",
+        "ui": "🎨 Giao diện & UI",
+        "intl": "🌍 Quốc tế hóa & SEO",
+        "utils": "✉️ Tương tác & Tiện ích"
+      },
+      "whyTech": "Lý do lựa chọn công nghệ",
+      "why": {
+        "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
+        "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
+        "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
+        "4": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
+        "5": "<strong>EmailJS</strong>: Gửi email không cần backend.",
+        "6": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
+        "7": "<strong>React Router DOM</strong>: Điều hướng mượt mà.",
+        "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
+        "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
+      }
+    },
+    "landing": {
+      "title": "Trang landing page - (HTML + CSS)",
+      "description": "Lucy Pet Care là landing page tĩnh, chuyển từ thiết kế Figma. Dự án tập trung vào HTML & CSS thuần với cấu trúc rõ ràng, giao diện đẹp và thân thiện SEO.",
+
+      "modal": {
+        "detailDescription": "Trang landing page giới thiệu dịch vụ chăm sóc thú cưng, được code hoàn toàn bằng HTML, CSS thuần từ bản thiết kế Figma.<br/>Một số tính năng chính:<br/>🔹Chuyển đổi chính xác từ thiết kế Figma<br/>🔹 Cấu trúc HTML & CSS sạch, dễ đọc<br/>🔹 Giao diện hiện đại, màu sắc hài hòa<br/>🔹 Tối ưu SEO (thẻ meta, sitemap, robots.txt)<br/>🔹Tối ưu hiệu suất hiển thị ảnh (lazy loading)",
+        "inspirationDescription1": "Dự án được xây dựng để luyện tập dựng landing page từ thiết kế Figma bằng <strong>HTML & CSS thuần</strong>.",
+        "inspirationDescription2": "Tôi muốn cải thiện kỹ năng căn chỉnh giao diện, responsive và tổ chức code rõ ràng, dễ mở rộng.",
+        "why": {
+          "1": "<strong>HTML</strong>: Cấu trúc semantic rõ ràng.",
+          "2": "<strong>CSS</strong>: Thiết kế giao diện, dễ bảo trì.",
+          "3": "<strong>Google Fonts</strong>: Giao diện đẹp, dễ đọc.",
+          "4": "<strong>SEO Meta Tags</strong>: Cải thiện hiển thị tìm kiếm."
+        },
+        "tech": {
+          "core": "🚀 Công nghệ chính"
+        }
+      }
+    },
+    "mart": {
+      "title": "Lofi web clone - (React + Redux)",
+      "description": "Website nghe nhạc Lofi thư giãn với giao diện ngày/đêm, hiệu ứng mưa, chọn mood nhạc và phát từ link YouTube tuỳ chọn. Hỗ trợ làm việc hiệu quả qua hẹn giờ Pomodoro và Todo list.",
+
+      "modal": {
+        "detailDescription": "Ứng dụng web nghe nhạc Lofi thư giãn, hỗ trợ tuỳ biến không gian làm việc và tập trung hiệu quả.<br/>Một số tính năng chính:<br/>🔹 Giao diện ngày / đêm, hiệu ứng tiếng mưa<br/>🔹 Chọn mood nhạc (Chill / Jazz / Sleep)<br/>🔹 Phát nhạc từ link YouTube tuỳ chọn<br/>🔹 Hẹn giờ Pomodoro hỗ trợ tập trung<br/>🔹 To-do list: thêm / sửa / xoá nhiệm vụ<br/>🔹 Giao diện hiện đại, mượt và responsive",
+        "inspirationDescription1": "Dự án được thực hiện nhằm rèn luyện kỹ năng <strong>React và Redux</strong>.",
+        "inspirationDescription2": "Tôi cũng muốn tạo một website nghe nhạc thư giãn của riêng mình, hỗ trợ tập trung làm việc hiệu quả.",
+        "why": {
+          "1": "<strong>React</strong>: Xây dựng giao diện linh hoạt, dễ mở rộng.",
+          "2": "<strong>Redux</strong>: Quản lý trạng thái ứng dụng hiệu quả.",
+          "3": "<strong>Sass</strong>: Viết CSS có cấu trúc, dễ bảo trì.",
+          "4": "<strong>UI Libraries</strong>: Tạo giao diện nhanh, đẹp (Bootstrap, MUI).",
+          "5": "<strong>Media & Timer</strong>: Phát nhạc, video và hẹn giờ Pomodoro.",
+          "6": "<strong>LocalStorage</strong>: Lưu dữ liệu người dùng trên trình duyệt.",
+          "7": "<strong>react-draggable</strong>: Hỗ trợ kéo thả."
+        },
+        "tech": {
+          "core": "🚀 Công nghệ chính",
+          "ui": "🎨 Giao diện & UI",
+          "intl": "🔊 Trình phát & Media",
+
+          "utils": "📦 Quản lý & Tiện ích"
+        }
+      }
+    }
+  },
+
+  "projectModal": {
+    "techTitle": "Công nghệ sử dụng",
+    "close": "Đóng",
+    "detail": "✨Chi tiết dự án"
+  },
+
+  "about": {
+    "p1": "Xin chào! Mình là",
+    "p2": "ShinTran",
+    "p3": "một người yêu thích lập trình và đang trên hành trình trở thành",
+
+    "p4": "Frontend Developer.",
+    "p44": "",
+    "p5": "Trong lĩnh vực lập trình, mình bị thu hút nhất bởi Frontend vì đây là nơi công nghệ gặp gỡ sáng tạo.",
+    "h1": "Vì sao mình chọn Frontend?",
+    "h2": "Hành trình của mình",
+    "h3": "Mục tiêu trong 10 năm tới",
+
+    "quote": "Hành trình chỉ mới bắt đầu, nhưng với sự kiên trì và nỗ lực, mình tin rằng sẽ đạt được mục tiêu",
+
+    "li1": "Mình yêu thích sự sáng tạo và muốn tạo ra những giao diện",
+    "li2": "đẹp, trực quan, dễ sử dụng.",
+    "li222": "",
+    "li3": "Đối với mình,",
+    "li4": "code không chỉ là kỹ thuật mà còn là nghệ thuật - ",
+    "li5": "nơi mà mỗi chi tiết nhỏ trên giao diện đều ảnh hưởng đến trải nghiệm người dùng.",
+    "li6": "Từ tháng 1/2025, mình tập trung ",
+    "li7": "học Frontend",
+    "li8": "một cách bài bản với mục tiêu",
+    "li9": "ứng tuyển công việc đầu tiên vào tháng 7/2025.",
+    "li99": "",
+    "li10": "Để đạt được điều đó, mình đang xây dựng",
+    "li11": "dự án thực tế",
+    "li12": "để rèn luyện kỹ năng và hoàn thiện portfolio cá nhân.",
+    "li13": "Ngoài lập trình, mình cũng quan tâm đến",
+    "li14": "UI/UX",
+    "li15": "vì mình tin rằng một giao diện tốt không chỉ đẹp mà còn phải dễ sử dụng.",
+    "li55": ",",
+
+    "li16": "5 năm đầu (2025 - 2030)",
+    "li17": "Trở thành một",
+    "li18": " Frontend Developer chuyên nghiệp",
+    "li19": "có thể xây dựng các ứng dụng web hiện đại và tối ưu trải nghiệm người dùng. Đồng thời, học song song",
+    "li20": " Backend Development",
+    "li21": "để mở rộng kiến thức và kỹ năng.",
+
+    "li22": "5 năm tiếp theo (2030 - 2035)",
+    "li23": "Phát triển thành một",
+    "li24": "Backend Developer chuyên nghiệp",
+    "li25": "nắm vững hệ thống máy chủ, cơ sở dữ liệu và các API để xây dựng hệ thống hoàn chỉnh.",
+
+    "li26": "Mục tiêu cuối cùng",
+    "li27": "Trở thành một",
+    "li28": " Fullstack Developer",
+    "li29": "có thể làm chủ cả",
+    "li30": " Frontend",
+    "li31": "và",
+    "li32": "Backend",
+    "li322": "",
+    "li33": " xây dựng và phát triển những sản phẩm web hoàn chỉnh từ giao diện đến hệ thống phía sau."
+  },
+  "experience": {
+    "title": "Kinh nghiệm làm việc",
+    "title2": "💡 Tận dụng kinh nghiệm làm việc trước đây, tôi hướng đến việc phát triển dựa trên tư duy logic và tinh thần làm việc nhóm."
+  },
+
+  "appFooter": {
+    "slogan": "Thiết kế giao diện, nâng tầm trải nghiệm – Code là nghệ thuật, giao diện là linh hồn!"
+  }
+}

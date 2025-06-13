@@ -1,0 +1,462 @@
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+);
+
+@import "bootstrap/scss/bootstrap.scss";
+//@import "components/share/loading-spinner";
+
+@import "./animation.scss";
+@import "./contact.scss";
+
+@import "./variable.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.brand-green {
+  color: var(--brand-name-100);
+}
+
+.brand-red {
+  color: var(--brand-name-200);
+}
+
+a {
+  text-decoration: none;
+
+  &.highlight {
+    color: var(--brand-social);
+  }
+}
+
+// .dark {
+// }
+
+body {
+  padding-top: 60px;
+  background-color: var(--background-body);
+  font-family: "Noto Sans JP", "Raleway", sans-serif !important;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-body-tertiary {
+  background-color: var(--background-body-tertiary) !important;
+}
+
+.text-pink-100 {
+  color: var(--text-pink-100);
+}
+
+.text-pink-200 {
+  color: var(--text-pink-200);
+}
+
+.text-yellow-500 {
+  color: var(--text-yellow-500);
+}
+
+.text-red-500 {
+  color: var(--text-red-500);
+}
+
+.text-green-700 {
+  color: var(--text-green-700);
+}
+
+.text-blue-100 {
+  color: var(--text-blue-100);
+}
+
+.text-white-0 {
+  color: var(--text-white);
+}
+
+.social-icon {
+  padding: 5px;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+
+  &:hover {
+    transform: scale(1.3); /* Phóng to khi hover */
+  }
+}
+
+.resize-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 9999px;
+  background-image: var(--resize-button);
+  padding: 15px 25px;
+  text-align: center;
+  //color: var(--text-white);
+  text-decoration: none;
+  border: none;
+  font-weight: 600;
+  transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+
+  &:hover {
+    //gap: 10px;
+
+    transform: translateX(5px);
+  }
+}
+
+.nav-item:not(.theme) {
+  position: relative;
+
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+  //display:block; /* Giữ cho chỉ chiếm không gian của chữ */
+  transition: color 0.3s ease-in-out;
+}
+.nav-item:not(.theme)::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px; /* Điều chỉnh vị trí gạch chân */
+  width: 0%; /* Ban đầu không có gạch chân */
+  height: 2px;
+  background: #7884db; /* Màu vàng */
+  transform: translateX(-50%); /* Căn giữa gạch chân */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item:not(.theme):hover::after {
+  width: 100%;
+}
+
+.nav-link {
+  display: inline-flex !important;
+}
+
+// /* Ngăn sáng lên khi đang ở trang đó */
+.nav-link.disable-active {
+  color: inherit !important; /* Giữ nguyên màu mặc định */
+  font-weight: normal !important;
+}
+
+///* Hiệu ứng underline khi hover */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px; /* Điều chỉnh vị trí gạch chân */
+  width: 0%; /* Bắt đầu với độ rộng bằng 0 */
+  height: 2px;
+  background: #7884db;
+  transform: translateX(-50%); /* Căn giữa gạch chân với chữ */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: auto; /* Khi hover, gạch chân mở rộng ra đúng kích thước chữ */
+}
+
+/* Chỉ sáng lên khi hover */
+.nav-link:hover {
+  color: #ff69b4 !important; /* Màu khi hover */
+}
+
+/* Định dạng chung cho link navbar */
+.nav-link {
+  position: relative;
+
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: inline-block; /* Giữ cho chỉ chiếm không gian của chữ */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hiệu ứng underline chỉ xuất hiện dưới chữ */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px; /* Điều chỉnh vị trí gạch chân */
+  width: 0%; /* Ban đầu không có gạch chân */
+  height: 2px;
+  background: #7884db; /* Màu vàng */
+  transform: translateX(-50%); /* Căn giữa gạch chân */
+  transition: width 0.3s ease-in-out;
+}
+
+/* Hover vào sẽ hiển thị gạch chân */
+.nav-link:hover::after {
+  width: 100%; /* Mở rộng gạch chân ra đúng kích thước chữ */
+}
+
+/* Khi active, giữ gạch chân */
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Khi active, đổi màu chữ */
+
+.divider {
+  height: 1px;
+  border-top: 1px solid var(--border-hero-right);
+}
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--scroll-track-background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb-background);
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+  border-radius: 12px;
+}
+
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+  background-color: transparent; // Màu nền khi chưa cuộn
+
+  @media (max-width: 992px) {
+    // Bootstrap breakpoint cho màn hình nhỏ
+
+    background-color: var(--background-body); // Màu nền mong muốn
+  }
+}
+
+.navbar-custom.scrolled {
+  background-color: var(--background-body); // Màu nền khi cuộn xuống (tối hơn)
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+  cursor: pointer;
+}
+
+.project-card-view {
+  box-shadow: 0 3px 3px 3px var(--border-hero-right);
+  color: var(--text-white);
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+
+  &:hover {
+    border-color: var(--brand-social);
+  }
+}
+
+.blog-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.slogan {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  // background: linear-gradient(to right, #ec4899, #8b5cf6);
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease;
+
+  // &:hover {
+  //   filter: brightness(1);
+  //   transform: translateX(5px);
+  // }
+}
+.about-image {
+  width: 100%; // Đảm bảo ảnh co giãn theo kích thước container
+  max-width: 300px; // Giữ kích thước tối đa để tránh quá lớn
+  height: auto; // Đảm bảo không bị méo ảnh
+  border-radius: 25px; // Làm ảnh tròn
+  object-fit: cover; // Giữ tỷ lệ ảnh mà không bị kéo giãn
+  display: block;
+  margin: auto;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; // Tạo khoảng cách giữa các phần nội dung
+}
+
+.about-content {
+  max-width: 100%; // Giới hạn chiều rộng để nội dung không quá dài
+  margin: 0 auto; // Căn giữa nội dung
+  margin-bottom: 50px;
+  color: var(--text-white);
+}
+
+.about-image {
+  width: 100%;
+  max-width: 350px; // Giữ kích thước ảnh hợp lý
+  height: auto;
+  border-radius: 12px; // Bo góc nhẹ nhàng hơn
+  object-fit: cover;
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+  @media (max-width: 767.98px) {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about-content {
+    text-align: left;
+  }
+}
+
+.h5 {
+  margin-bottom: 20px;
+  .journey-quote {
+    background: var(--background-slogan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+}
+.about-content h5 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #82bfe5; // Màu nhấn cho tiêu đề
+}
+
+.project-description {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-white);
+  text-align: center;
+}
+
+/* CSS cho các liên kết */
+.project-link {
+  color: #4da6ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition:
+    color 0.3s ease-in-out,
+    text-decoration 0.3s ease-in-out;
+  position: relative;
+}
+
+.project-link:hover {
+  color: #66ccff;
+}
+
+// .project-link::after {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     bottom: -2px;
+//     width: 100%;
+//     height: 2px;
+//     background: #ffcc00;
+//     transform: scaleX(0);
+//     transition: transform 0.3s ease-in-out;
+// }
+
+// .project-link:hover::after {
+//     transform: scaleX(1);
+// }
+.project-header {
+  margin-bottom: 20px;
+}
+
+.project-header h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--text-white);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.project-card-view .btn-primary:hover {
+  background-color: #339af0;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.custom-link {
+  text-decoration: none;
+  color: var(--bs-primary); // hoặc bạn dùng màu cụ thể như #0d6efd
+  transition: color 0.3s;
+}
+
+.custom-link:hover {
+  color: #66ccff;
+}

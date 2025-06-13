@@ -1,16 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
   <head>
+    <!-- Meta -->
     <meta charset="UTF-8" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <meta
+      name="description"
+      content="This is the portfolio of Ngoc ShinTran, a front-end developer specializing in React, TypeScript, JavaScript, HTML, and CSS. The portfolio features light/dark mode, language switching, detailed project views via modals, an email contact form using EmailJS, and responsive design. Built with React and TypeScript, this work emphasizes practical UI/UX."
+    />
+    <meta
+      name="keywords"
+      content="Portfolio, Front-end, React, TypeScript, Javascript, HTML, CSS, Web Development, Scss, Sass, SEO, Developer, Ngoc ShinTran, Tran Van Ngoc"
+    />
+    <meta name="author" content="Ngoc ShinTran" />
+    <meta
+      property="og:title"
+      content="ShinTran | Front-end Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="This is the portfolio of Ngoc ShinTran, a front-end developer specializing in React, TypeScript, JavaScript, HTML, and CSS. The portfolio features light/dark mode, language switching, detailed project views via modals, an email contact form using EmailJS, and responsive design. Built with React and TypeScript, this work emphasizes practical UI/UX."
+    />
+    <meta property="og:url" content="https://github.com/shin-tran" />
+    <meta property="og:image" content="/demo-project.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Preload hero background -->
+    <link rel="preload" as="image" href="@assets/section.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <title>Portfolio v1 - ShinTran</title>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

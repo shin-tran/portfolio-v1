@@ -1,0 +1,316 @@
+{
+  "appHeader": {
+    "brand": "ShinTran",
+    "home": "Home",
+    "project": "Project",
+    "contact": "Contact",
+    "about": "About Me",
+    "darkMode": "Dark",
+    "lightMode": "Light",
+    "language": "Language",
+    "language1": "English",
+    "language2": "Vietnamese"
+  },
+  "heroSection": {
+    "greeting": "Hello!",
+    "im": "I'm",
+    "after": "",
+    "job1": "Frontend Developer",
+    "job2": "Future Fullstack Developer",
+    "job3": "Always Learning",
+    "exp": "Skills",
+    "cv": "View CV"
+  },
+  "introSection": {
+    "about": "OVERVIEW",
+    "and4": "and",
+    "and": "and",
+    "and1": "elegant, smooth",
+    "and2": "high performance.",
+    "heading1": "🔥 I am pursuing the Frontend field, constantly learning to deliver the best user experiences on the web platform.",
+    "heading2": "I have self-studied to acquire knowledge in",
+    "heading3": "🎯 My goal is to become a",
+    "heading4": "professional Frontend Developer.",
+    "heading5": "I am always ready to learn and challenge myself to create interfaces that are",
+    "edu": "Education",
+    "job": "Faculty of Information Technology",
+    "school": "Cao Thang Technical College",
+    "school1": "(Full-time program)"
+  },
+  "skill": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "CONTACT",
+    "name": "Full Name:",
+    "mail": "Email:",
+    "mes": "Message:",
+    "send": "Send Message",
+    "title2": "Contact Me",
+    "title3": "Feel free to contact me if you have any questions or collaboration opportunities!",
+    "required": "(*Required)"
+  },
+  "toast": {
+    "success": "Message sent successfully! Please check your inbox, junk, or spam folder.",
+    "error": "Failed to send message!",
+    "mes": "Sending message...",
+    "required": "Please fill in all required fields!"
+  },
+  "project": {
+    "title": "My Recent Projects",
+    "title2": "Using the Front End knowledge I've learned from online channels like",
+    "title3": ",... I have applied it to practice and implemented the projects below.",
+    "title4": "",
+    "portfolio": {
+      "title": "Personal Portfolio - (React + Typescript)",
+      "description": "A website to introduce myself, my skills, and projects, supporting light/dark mode, multiple languages, sending emails via EmailJS, a modal for project details, and responsive on all devices.",
+      "modal": {
+        "demo": "Demo",
+        "demoLink": "Project Demo Link",
+        "sourceCode": "Source Code Link:",
+        "detailTitle": "Detailed Description",
+        "detailDescription": "A personal portfolio website to introduce myself, skills, and projects.<br/>Key Features:<br/>🔹 Multi-page interface<br/>🔹 Multi-language: English – Vietnamese<br/>🔹 Send emails using EmailJS<br/>🔹 Responsive on all devices<br/>🔹 Light/dark mode support<br/>🔹 SEO optimized<br/>🔹 Project details displayed in a modal with an image slider<br/>🔹 Beautiful UI with React-Bootstrap",
+        "inspirationTitle": "Development Inspiration",
+        "inspirationDescription1": "This project was built to apply for a <strong>Frontend Developer</strong> position, inspired by portfolios like <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> and <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+        "inspirationDescription2": "This was an opportunity for me to practice and improve my <strong>React & Typescript</strong> skills.",
+        "technologiesTitle": "Technologies Used",
+        "inspiration": "This was an opportunity for me to practice and improve my <strong>React & Typescript</strong> skills.",
+        "tech": {
+          "core": "🚀 Core Technologies",
+          "ui": "🎨 Interface & UI",
+          "intl": "🌍 Internationalization & SEO",
+          "utils": "✉️ Interaction & Utilities"
+        },
+        "whyTech": "Reasons for Choosing Technologies",
+        "why": {
+          "1": "<strong>React + Typescript</strong>: Popular, powerful, and easy to scale.",
+          "2": "<strong>Vite</strong>: Extremely fast builds, optimized for performance.",
+          "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: Flexible and easily customizable UI.",
+          "4": "<strong>Lottie-react</strong>: Lively animations.",
+          "5": "<strong>i18next</strong>: Multi-language support, suitable for global users.",
+          "6": "<strong>SEO meta tags</strong>: Improves search engine visibility.",
+          "7": "<strong>EmailJS</strong>: Send emails without a backend.",
+          "8": "<strong>React Toastify</strong>: Quick and convenient notifications.",
+          "9": "<strong>React Router DOM</strong>: Smooth navigation."
+        }
+      }
+    },
+    "todo": {
+      "title": "Todo App - (React + Typescript)",
+      "description": "An application for managing daily tasks, supporting add/edit/delete, marking as complete, drag-and-drop sorting, saving data with LocalStorage, and displaying well on all devices.",
+      "modal": {
+        "detailDescription": "A compact to-do application for daily task management.<br/>Key Features:<br/>🔹 Add tasks (with duplicate and empty character checks)<br/>🔹 Edit tasks<br/>🔹 Delete tasks (with confirmation before deletion)<br/>🔹 Mark as complete/incomplete<br/>🔹 Store data using Local Storage<br/>🔹 Drag & drop to sort<br/>🔹 Displays well on all devices",
+        "inspirationDescription1": "This project was created while learning React & TypeScript to practice working with state, props, and hooks.",
+        "inspirationDescription2": "It was also an opportunity to improve skills in event handling and efficient data management.",
+        "why": {
+          "1": "<strong>React + TypeScript</strong>: Clear logic management, easy to extend.",
+          "2": "<strong>React Hooks</strong>: Efficient UI state management.",
+          "3": "<strong>SCSS (CSS Modules)</strong>: Isolate styles, avoid class conflicts.",
+          "4": "<strong>Google Fonts</strong>: Modern and readable interface.",
+          "5": "<strong>LocalStorage</strong>: Save user data without a backend.",
+          "6": "<strong>@hello-pangea/dnd</strong>: Intuitive drag-and-drop sorting.",
+          "7": "<strong>Prettier</strong>: Keep code clean and consistent.",
+          "8": "<strong>ESLint</strong>: Detect errors early, standardize code."
+        },
+        "tech": {
+          "core": "🚀 Core Technologies",
+          "ui": "🎨 Interface & UI",
+          "intl": "📦 Libraries & Utilities",
+          "utils": "🧹 Code Quality"
+        }
+      }
+    },
+    "library": {
+      "title": "E-commerce Website - (HTML+Sass+Javascript)",
+      "description": "A multi-page e-commerce website built from a Figma design, supporting responsiveness, light/dark mode, SEO optimization, page load performance, and a modern mega menu.",
+      "modal": {
+        "demo": "Demo",
+        "demoLink": "Project Demo Link",
+        "sourceCode": "Source Code Link:",
+        "detailTitle": "Detailed Description",
+        "detailDescription": "Grocery Mart is an e-commerce website that simulates the real-world interface of a professional online store.<br/>Key Features:<br/>🔹 Multi-page interface: Home, products, details, cart, profile, etc.<br/>🔹 Converted from a Figma design<br/>🔹 Compatible with all devices<br/>🔹 Light/dark mode support<br/>🔹 SEO optimized<br/>🔹 Clean, extensible code – no frameworks used",
+        "inspirationTitle": "Development Inspiration",
+        "inspirationDescription1": "Grocery Mart was created to practice designing a professional e-commerce interface without using a framework.",
+        "inspirationDescription2": "The project was a stepping stone to hone my <strong>HTML, CSS, JavaScript</strong> skills and improve my thinking on responsiveness, code optimization, and SEO.",
+        "technologiesTitle": "Technologies Used",
+        "inspiration": "This was an opportunity for me to practice and improve my <strong>React & Typescript</strong> skills.",
+        "tech": {
+          "core": "🚀 Core Technologies",
+          "ui": "🎨 Interface & UI",
+          "intl": "🌍 SEO & Optimization",
+          "utils": "💾 Utilities"
+        },
+        "whyTech": "Reasons for Choosing Technologies",
+        "why": {
+          "1": "<strong>HTML5</strong>: Clear semantics, supports SEO.",
+          "2": "<strong>SCSS</strong>: Efficient style management with variables and mixins.",
+          "3": "<strong>JavaScript (ES6+)</strong>: Create dynamic interactions like toggles, tabs, dropdowns...",
+          "4": "<strong>Custom Grid SCSS</strong>: Proactively design layouts without a framework.",
+          "5": "<strong>Google Fonts</strong>: Enhance aesthetics.",
+          "6": "<strong>Meta + Canonical tags</strong>: Optimize SEO and prevent duplicate content.",
+          "7": "<strong>LocalStorage</strong>: Save theme state and cache HTML templates."
+        }
+      }
+    },
+    "todo2": {
+      "title": "Custom UI Modal Library - (Javascript)",
+      "description": "A lightweight (~2KB) library in pure JavaScript with no external dependencies, supporting the quick creation of common modals that run smoothly on all browsers.",
+      "modal": {
+        "demo": "Demo",
+        "demoLink": "Project Demo Link",
+        "sourceCode": "Source Code Link:",
+        "detailTitle": "Detailed Description",
+        "detailDescription": "Popzy is a lightweight modal library built with pure JavaScript, helping applications quickly create common types of modals on all modern browsers.<br/>Key Features:<br/>🔹 No external dependencies<br/>🔹 Customizable with CSS / supports CSS transitions<br/>🔹 Simple API: open(), close(), setContent(), addFooterButton()...<br/>🔹 Supports various modal types: basic, with buttons, long content, YouTube embeds, multiple modals at once<br/>🔹 Options for scroll lock, closing with overlay, button, or Escape key<br/>🔹 Easy to integrate into any project",
+        "inspirationTitle": "Development Inspiration",
+        "inspirationDescription1": "The project was born from the need to build a simple, lightweight, easy-to-use modal library without external dependencies.",
+        "inspirationDescription2": "I wanted to practice component-based thinking, optimize user experience, and understand how modals work using <strong>pure JavaScript</strong>.",
+        "technologiesTitle": "Technologies Used",
+        "tech": {
+          "core": "🚀 Core Technologies",
+          "ui": "💻 Dev Tools"
+        },
+        "whyTech": "Reasons for Choosing Technologies",
+        "why": {
+          "1": "<strong>JavaScript (ES6+)</strong>: Built the entire modal logic without external libraries.",
+          "2": "<strong>HTML5</strong>: Clear structure, easy to integrate.",
+          "3": "<strong>CSS</strong>: Customize interface and animations.",
+          "4": "<strong>Terser</strong>: Minify JS files to reduce library size.",
+          "5": "<strong>CSSO</strong>: Optimize CSS files for faster loading."
+        }
+      }
+    },
+    "modal": {
+      "demo": "Demo",
+      "demoLink": "Project Demo Link",
+      "sourceCode": "Source Code Link:",
+      "detailTitle": "Detailed Description",
+      "detailDescription": "A personal portfolio website to introduce myself, skills, and projects.<br/>Key Features:<br/>🔹 Multi-page interface<br/>🔹 Multi-language: Japanese – Vietnamese<br/>🔹 Send emails using EmailJS<br/>🔹 Responsive on all devices<br/>🔹 Light/dark mode support<br/>🔹 SEO optimized<br/>🔹 Project image slider<br/>🔹 Beautiful UI with React-Bootstrap",
+      "inspirationTitle": "Development Inspiration",
+      "inspirationDescription1": "This project was built to apply for a <strong>Frontend Developer</strong> position, inspired by portfolios like <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>, and <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+      "inspirationDescription2": "This was an opportunity for me to practice and improve my <strong>React & Typescript</strong> skills.",
+      "technologiesTitle": "Technologies Used",
+      "inspiration": "This was an opportunity for me to practice and improve my <strong>React & Typescript</strong> skills.",
+      "tech": {
+        "core": "🚀 Core Technologies",
+        "ui": "🎨 Interface & UI",
+        "intl": "🌍 Internationalization & SEO",
+        "utils": "✉️ Interaction & Utilities"
+      },
+      "whyTech": "Reasons for Choosing Technologies",
+      "why": {
+        "1": "<strong>React + Typescript</strong>: Popular, powerful, and easy to scale.",
+        "2": "<strong>Vite</strong>: Extremely fast builds, optimized for performance.",
+        "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: Flexible and easily customizable UI.",
+        "4": "<strong>i18next</strong>: Multi-language support, suitable for global users.",
+        "5": "<strong>EmailJS</strong>: Send emails without a backend.",
+        "6": "<strong>React Toastify</strong>: Quick and convenient notifications.",
+        "7": "<strong>React Router DOM</strong>: Smooth navigation.",
+        "8": "<strong>Lottie-react</strong>: Lively animations.",
+        "9": "<strong>SEO meta tags</strong>: Improves search engine visibility."
+      }
+    },
+    "landing": {
+      "title": "Landing Page - (HTML + CSS)",
+      "description": "Lucy Pet Care is a static landing page converted from a Figma design. The project focuses on pure HTML & CSS with a clear structure, beautiful interface, and SEO-friendliness.",
+      "modal": {
+        "detailDescription": "A landing page introducing pet care services, coded entirely with pure HTML and CSS from a Figma design.<br/>Key Features:<br/>🔹 Accurate conversion from Figma design<br/>🔹 Clean, readable HTML & CSS structure<br/>🔹 Modern interface with harmonious colors<br/>🔹 SEO optimized (meta tags, sitemap, robots.txt)<br/>🔹 Image display performance optimized (lazy loading)",
+        "inspirationDescription1": "This project was built to practice creating a landing page from a Figma design using <strong>pure HTML & CSS</strong>.",
+        "inspirationDescription2": "I wanted to improve my skills in layout alignment, responsiveness, and organizing code in a clear, extensible way.",
+        "why": {
+          "1": "<strong>HTML</strong>: Clear semantic structure.",
+          "2": "<strong>CSS</strong>: Interface design, easy to maintain.",
+          "3": "<strong>Google Fonts</strong>: Beautiful, readable interface.",
+          "4": "<strong>SEO Meta Tags</strong>: Improves search engine visibility."
+        },
+        "tech": {
+          "core": "🚀 Core Technologies"
+        }
+      }
+    },
+    "mart": {
+      "title": "Lofi Web Clone - (React + Redux)",
+      "description": "A relaxing Lofi music website with day/night themes, rain effects, music mood selection, and playback from custom YouTube links. Supports productivity with a Pomodoro timer and a Todo list.",
+      "modal": {
+        "detailDescription": "A web application for listening to relaxing Lofi music, supporting a customizable workspace for effective focus.<br/>Key Features:<br/>🔹 Day/night interface, rain sound effects<br/>🔹 Select music mood (Chill / Jazz / Sleep)<br/>🔹 Play music from custom YouTube links<br/>🔹 Pomodoro timer to support focus<br/>🔹 To-do list: add / edit / delete tasks<br/>🔹 Modern, smooth, and responsive interface",
+        "inspirationDescription1": "This project was created to practice my <strong>React and Redux</strong> skills.",
+        "inspirationDescription2": "I also wanted to create my own relaxing music website to help me focus effectively while working.",
+        "why": {
+          "1": "<strong>React</strong>: Build a flexible and scalable interface.",
+          "2": "<strong>Redux</strong>: Manage application state effectively.",
+          "3": "<strong>Sass</strong>: Write structured and maintainable CSS.",
+          "4": "<strong>UI Libraries</strong>: Create a fast and beautiful interface (Bootstrap, MUI).",
+          "5": "<strong>Media & Timer</strong>: Play music, videos, and set a Pomodoro timer.",
+          "6": "<strong>LocalStorage</strong>: Save user data in the browser.",
+          "7": "<strong>react-draggable</strong>: Support drag and drop."
+        },
+        "tech": {
+          "core": "🚀 Core Technologies",
+          "ui": "🎨 Interface & UI",
+          "intl": "🔊 Player & Media",
+          "utils": "📦 Management & Utilities"
+        }
+      }
+    }
+  },
+  "projectModal": {
+    "techTitle": "Technologies Used",
+    "close": "Close",
+    "detail": "✨Project Details"
+  },
+  "about": {
+    "p1": "Hello! I'm",
+    "p2": "ShinTran",
+    "p3": "a programming enthusiast on a journey to become a",
+    "p4": "Frontend Developer.",
+    "p44": "",
+    "p5": "In the field of programming, I am most drawn to Frontend because it's where technology meets creativity.",
+    "h1": "Why I Chose Frontend?",
+    "h2": "My Journey",
+    "h3": "My Goals for the Next 10 Years",
+    "quote": "The journey has just begun, but with perseverance and effort, I believe I will achieve my goals.",
+    "li1": "I love creativity and want to create interfaces that are",
+    "li2": "beautiful, intuitive, and easy to use.",
+    "li222": "",
+    "li3": "For me,",
+    "li4": "code is not just a technique but also an art -",
+    "li5": "where every small detail on the interface affects the user experience.",
+    "li6": "Since January 2025, I have been focused on",
+    "li7": "learning Frontend",
+    "li8": "systematically with the goal of",
+    "li9": "applying for my first job in July 2025.",
+    "li99": "",
+    "li10": "To achieve that, I am building",
+    "li11": "real-world projects",
+    "li12": "to practice my skills and complete my personal portfolio.",
+    "li13": "Besides programming, I am also interested in",
+    "li14": "UI/UX",
+    "li15": "because I believe a good interface is not only beautiful but also must be easy to use.",
+    "li55": ",",
+    "li16": "First 5 years (2025 - 2030)",
+    "li17": "Become a",
+    "li18": "professional Frontend Developer",
+    "li19": "capable of building modern web applications and optimizing user experiences. At the same time, I will learn",
+    "li20": "Backend Development",
+    "li21": "in parallel to expand my knowledge and skills.",
+    "li22": "Next 5 years (2030 - 2035)",
+    "li23": "Develop into a",
+    "li24": "professional Backend Developer",
+    "li25": "with a firm grasp of server systems, databases, and APIs to build complete systems.",
+    "li26": "Ultimate Goal",
+    "li27": "Become a",
+    "li28": "Fullstack Developer",
+    "li29": "who can master both",
+    "li30": "Frontend",
+    "li31": "and",
+    "li32": "Backend",
+    "li322": "",
+    "li33": "to build and develop complete web products from the interface to the backend system."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "title2": "💡 Leveraging my previous work experience, I aim to develop with a logical mindset and a spirit of teamwork."
+  },
+  "appFooter": {
+    "slogan": "Designing interfaces, elevating experiences – Code is art, the interface is the soul!"
+  }
+}

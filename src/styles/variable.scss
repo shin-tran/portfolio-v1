@@ -1,0 +1,90 @@
+// $grey-100: #eee;
+
+$light-theme: (
+  background-body: #f7f9fc,
+  background-body-tertiary: #f8f9fa,
+
+  scroll-track-background: "#f7f9f",
+  scroll-thumb-background: "#ccc",
+  scroll-thumb-hover: "#9e9e9e",
+
+  brand-name-100: #1a1a1a,
+  brand-name-200: #ec4899,
+  brand-social: #4762f8,
+  border-hero-right: #bf95c3,
+  background-hero-right: "linear-gradient(to right, #fff, #eee)",
+  border-top-hero-right:
+    "linear-gradient(to right, transparent, #fff, #fff, transparent)",
+
+  text-red-500: #f96f73,
+  text-yellow-500: #fa9348,
+  text-green-500: #6adf9a,
+  text-green-700: #56b10e,
+  text-pink-100: #ec4899,
+  text-pink-200: #bd21b8,
+  text-blue-100: #1dd2ec,
+  text-white: #241929,
+
+  line-blue-500: #1a1443,
+  resize-button: "linear-gradient(to right, #ec4899, #8b5cf6)",
+  glow-card-background: #f5f6f7,
+  skill-card-background: #f5f6f7,
+  border-top-skill-card:
+    "linear-gradient(to right, transparent, #fff, #fff, transparent)",
+
+  background-contact: #f7f7e9,
+  background-text-input: #f7f7db,
+  background-slogan: linear-gradient(to right, #43c100, #d59f2b),
+  border-input: 1px solid #97978a,
+);
+
+$dark-theme: (
+  background-header: #0d1224,
+  background-body: #0d1224,
+  background-body-tertiary: transparent,
+  scroll-track-background: "#0d1224",
+  scroll-thumb-background: "#606060",
+  scroll-thumb-hover: "#d6d6d6",
+  brand-name-100: #16f2b3,
+  brand-name-200: #ec4899,
+  brand-social: #ec4899,
+
+  border-hero-right: #1b2c68a0,
+  background-hero-right: "linear-gradient(to right, #0d1224, #0a0d37)",
+  border-top-hero-right:
+    "linear-gradient(to right, transparent, #ec4899, #8b5cf6, transparent)",
+
+  text-red-500: #f96f73,
+  text-yellow-500: #fa9348,
+  text-green-500: #b6f9d2,
+  text-green-700: #56b10e,
+  text-pink-100: #ec4899,
+  text-pink-200: #bd21b8,
+  text-blue-100: #1dd2ec,
+  text-white: #d5cfd8,
+
+  line-blue-500: #1a1443,
+  resize-button: "linear-gradient(to right, #ec4899, #8b5cf6)",
+
+  glow-card-background: #101123,
+  skill-card-background: #11152c,
+  border-top-skill-card:
+    "linear-gradient(to right, transparent,#8b5cf6, #8b5cf6, transparent)",
+
+  background-contact: #111827,
+  background-text-input: #10172d,
+  border-input: 1px solid #353a52,
+  background-slogan: linear-gradient(to right, #96ff5e, #ff9a44),
+);
+
+:root {
+  @each $name, $color in $light-theme {
+    --#{$name}: #{$color};
+  }
+}
+
+[data-bs-theme="dark"] {
+  @each $name, $color in $dark-theme {
+    --#{$name}: #{$color};
+  }
+}
