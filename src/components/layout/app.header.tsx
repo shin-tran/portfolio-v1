@@ -10,6 +10,7 @@ import { NavDropdown } from "react-bootstrap";
 import viFlag from "@assets/svg/language/vi.svg";
 import usFlag from "@assets/svg/language/us.svg";
 import { useNavigate, useLocation } from "react-router";
+import { changeLanguageAndSave } from "@/i18n";
 
 type ThemeContextType = "light" | "dark";
 
@@ -131,35 +132,35 @@ function AppHeader() {
                 cursor: "pointer",
                 placeItems: "center",
               }}
-              onClick={() => handleMode(theme === "light" ? "dark" : "light")} // Xử lý click trên cả div
+              onClick={() => handleMode(theme === "light" ? "dark" : "light")}
             >
               {theme === "light" ? (
                 <>
                   <MdOutlineLightMode style={{ fontSize: 20 }} />
-                  {/* <span className="nav-text theme">
-                    {t("appHeader.darkMode")}
-                  </span> */}
+                  <span className="nav-text theme">
+                    {t("appHeader.lightMode")}
+                  </span>
                 </>
               ) : (
                 <>
                   <MdNightlight style={{ fontSize: 20 }} />
-                  {/* <span className="nav-text theme">
-                    {t("appHeader.lightMode")}
-                  </span> */}
+                  <span className="nav-text theme">
+                    {t("appHeader.darkMode")}
+                  </span>
                 </>
               )}
             </div>
 
             <NavDropdown
               title={
-                <div className="nav-text d-flex gap-2" >
+                <div className="nav-text d-flex gap-2">
                   <img
                     style={{ height: 20, width: 20 }}
                     src={i18n.resolvedLanguage === "en" ? usFlag : viFlag}
                   />
-                  {/* <span className="nav-text theme">
+                  <span className="nav-text theme">
                     {t("appHeader.language")}
-                  </span> */}
+                  </span>
                 </div>
               }
               style={{
@@ -169,7 +170,7 @@ function AppHeader() {
               }}
             >
               <div
-                onClick={() => i18n.changeLanguage("en")}
+                onClick={() => changeLanguageAndSave("en")}
                 className="dropdown-item d-flex gap-2"
                 style={{ cursor: "pointer" }}
               >
@@ -177,7 +178,7 @@ function AppHeader() {
                 <span>{t("appHeader.language1")}</span>
               </div>
               <div
-                onClick={() => i18n.changeLanguage("vi")}
+                onClick={() => changeLanguageAndSave("vi")}
                 className="dropdown-item d-flex gap-2"
                 style={{ cursor: "pointer" }}
               >

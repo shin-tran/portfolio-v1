@@ -10,15 +10,11 @@ $spacers: (
   7: $spacer * 5,
 );
 
-@import "bootstrap/scss/bootstrap.scss";
-//@import "components/share/loading-spinner";
-
-@import "./animation.scss";
-@import "./contact.scss";
-
-@import "./variable.scss";
-
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
+@use "bootstrap/dist/css/bootstrap.css";
+@use "./animation.scss";
+@use "./contact.scss";
+@use "./variable.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -47,9 +43,7 @@ a {
 body {
   padding-top: 60px;
   background-color: var(--background-body);
-  font-family: "Noto Sans JP", "Raleway", sans-serif !important;
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", "Raleway", sans-serif !important;
 }
 
 .bg-body-tertiary {
@@ -103,27 +97,22 @@ body {
   background-image: var(--resize-button);
   padding: 15px 25px;
   text-align: center;
-  //color: var(--text-white);
   text-decoration: none;
   border: none;
   font-weight: 600;
-  transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+  transition: transform 0.3s ease-in-out;
 
   &:hover {
-    //gap: 10px;
-
     transform: translateX(5px);
   }
 }
 
 .nav-item:not(.theme) {
   position: relative;
-
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 15px;
-  //display:block; /* Giữ cho chỉ chiếm không gian của chữ */
   transition: color 0.3s ease-in-out;
 }
 .nav-item:not(.theme)::after {
@@ -133,7 +122,7 @@ body {
   bottom: -3px; /* Điều chỉnh vị trí gạch chân */
   width: 0%; /* Ban đầu không có gạch chân */
   height: 2px;
-  background: #7884db; /* Màu vàng */
+  background: #7884db;
   transform: translateX(-50%); /* Căn giữa gạch chân */
   transition: width 0.3s ease-in-out;
 }
@@ -146,13 +135,13 @@ body {
   display: inline-flex !important;
 }
 
-// /* Ngăn sáng lên khi đang ở trang đó */
+/* Ngăn sáng lên khi đang ở trang đó */
 .nav-link.disable-active {
   color: inherit !important; /* Giữ nguyên màu mặc định */
   font-weight: normal !important;
 }
 
-///* Hiệu ứng underline khi hover */
+/* Hiệu ứng underline khi hover */
 .nav-link::after {
   content: "";
   position: absolute;
@@ -194,7 +183,7 @@ body {
   bottom: -3px; /* Điều chỉnh vị trí gạch chân */
   width: 0%; /* Ban đầu không có gạch chân */
   height: 2px;
-  background: #7884db; /* Màu vàng */
+  background: #7884db;
   transform: translateX(-50%); /* Căn giữa gạch chân */
   transition: width 0.3s ease-in-out;
 }
@@ -250,8 +239,6 @@ body {
   background-color: transparent; // Màu nền khi chưa cuộn
 
   @media (max-width: 992px) {
-    // Bootstrap breakpoint cho màn hình nhỏ
-
     background-color: var(--background-body); // Màu nền mong muốn
   }
 }
@@ -299,31 +286,16 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
-  // background: linear-gradient(to right, #ec4899, #8b5cf6);
   background: #12c2e9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease;
-
-  // &:hover {
-  //   filter: brightness(1);
-  //   transform: translateX(5px);
-  // }
 }
+
 .about-image {
   width: 100%; // Đảm bảo ảnh co giãn theo kích thước container
   max-width: 300px; // Giữ kích thước tối đa để tránh quá lớn
@@ -387,6 +359,7 @@ body {
     font-weight: bold;
   }
 }
+
 .about-content h5 {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -419,21 +392,6 @@ body {
   color: #66ccff;
 }
 
-// .project-link::after {
-//     content: '';
-//     position: absolute;
-//     left: 0;
-//     bottom: -2px;
-//     width: 100%;
-//     height: 2px;
-//     background: #ffcc00;
-//     transform: scaleX(0);
-//     transition: transform 0.3s ease-in-out;
-// }
-
-// .project-link:hover::after {
-//     transform: scaleX(1);
-// }
 .project-header {
   margin-bottom: 20px;
 }
@@ -446,14 +404,16 @@ body {
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
+
 .project-card-view .btn-primary:hover {
   background-color: #339af0;
   transform: scale(1.05);
   transition: 0.3s ease;
 }
+
 .custom-link {
   text-decoration: none;
-  color: var(--bs-primary); // hoặc bạn dùng màu cụ thể như #0d6efd
+  color: var(--bs-primary);
   transition: color 0.3s;
 }
 

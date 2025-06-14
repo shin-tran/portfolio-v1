@@ -47,7 +47,6 @@ const Experience = () => {
                   <img
                     style={{ position: "absolute", bottom: 0, opacity: 0.8 }}
                     src={blurImg}
-                    alt="紹介部分"
                     width={"100%"}
                     height={200}
                   />

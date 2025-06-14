@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import avatarImg from "@assets/avatar.png";
 import "./introduction.scss";
 import { useTranslation } from "react-i18next";
-import { DEVELOPMENT_LOTTIE } from "@assets/lottie/string/development";
+import { DEVELOPMENT_LOTTIE } from "@assets/lottie/string/development.d";
 import GlowCard from "@components/share/glow-card";
 import { FaGraduationCap } from "react-icons/fa6";
 import { lazy, Suspense } from "react";
@@ -47,9 +47,7 @@ const Introduction = () => {
             <br />
             {t("introSection.heading5")}
             <i>
-              <b className="text-pink-100">
-                &nbsp; {t("introSection.and1")}{" "}
-              </b>
+              <b className="text-pink-100">&nbsp; {t("introSection.and1")} </b>
             </i>
             {t("introSection.and")}
             <i>
@@ -96,7 +94,7 @@ const Introduction = () => {
             <div>
               <h4 className="brand-red text-center">{t("introSection.edu")}</h4>
             </div>
-            <div>
+            <div className="w-100">
               <GlowCard identifier={`experience-5`}>
                 <div className="relative p-3">
                   <div className="experience-container">
@@ -108,9 +106,32 @@ const Introduction = () => {
                         <FaGraduationCap size={36} />
                       </div>
                       <div className="info">
-                        <p className="title">{t("introSection.job")}</p>
-                        <p className="company">{t("introSection.school")}</p>
+                        <p className="title">
+                          {t("introSection.job1")}
+                        </p>
                         <p className="company">{t("introSection.school1")}</p>
+                        <p className="company">{t("introSection.school1-1")}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </GlowCard>
+            </div>
+            <div className="w-100">
+              <GlowCard identifier={`experience-5`}>
+                <div className="relative p-3">
+                  <div className="experience-container">
+                    <div className="duration-text">
+                      <p>2021-2024</p>
+                    </div>
+                    <div className="details">
+                      <div className="icon">
+                        <FaGraduationCap size={36} />
+                      </div>
+                      <div className="info">
+                        <p className="title">{t("introSection.job2")}</p>
+                        <p className="company">{t("introSection.school2")}</p>
+                        <p className="company">{t("introSection.school2-1")}</p>
                       </div>
                     </div>
                   </div>

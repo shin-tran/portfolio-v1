@@ -35,9 +35,12 @@
     "heading4": "Frontend Developer chuyên nghiệp.",
     "heading5": "Tôi luôn sẵn sàng học hỏi và thử thách bản thân để tạo ra các giao diện",
     "edu": "Học vấn",
-    "job": "Khoa Công nghệ thông tin",
-    "school": "Trường Cao Đẵng Kỹ Thuật Cao Thắng",
-    "school1": "(Hệ chính quy)"
+    "job1": "Công nghệ thông tin",
+    "school1": "Trường Cao Đẳng Kỹ Thuật Cao Thắng",
+    "school1-1": "(Hệ chính quy)",
+    "job2": "Kỹ thuật sửa chữa và lắp ráp máy tính",
+    "school2": "Trường Cao Đẳng Hoà Bình Xuân Lộc",
+    "school2-1": "(Hệ chính quy)"
   },
 
   "skill": {
@@ -46,7 +49,6 @@
 
   "contact": {
     "title": "LIÊN HỆ",
-
     "name": "Họ và tên:",
     "mail": "Email:",
     "mes": "Tin nhắn:",
@@ -67,7 +69,6 @@
     "title2": "Từ những kiến thức Front End học được qua các kênh trực tuyến như",
     "title3": ",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
     "title4": "",
-
     "portfolio": {
       "title": "Portfolio cá nhân - (React＋Typescript)",
       "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, modal hiển thị chi tiết dự án và responsive trên mọi thiết bị.",
@@ -301,10 +302,10 @@
     "li3": "Đối với mình,",
     "li4": "code không chỉ là kỹ thuật mà còn là nghệ thuật - ",
     "li5": "nơi mà mỗi chi tiết nhỏ trên giao diện đều ảnh hưởng đến trải nghiệm người dùng.",
-    "li6": "Từ tháng 1/2025, mình tập trung ",
+    "li6": "Từ tháng 7/2024, mình tập trung ",
     "li7": "học Frontend",
     "li8": "một cách bài bản với mục tiêu",
-    "li9": "ứng tuyển công việc đầu tiên vào tháng 7/2025.",
+    "li9": "ứng tuyển công việc đầu tiên vào tháng 7/2026.",
     "li99": "",
     "li10": "Để đạt được điều đó, mình đang xây dựng",
     "li11": "dự án thực tế",

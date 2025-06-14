@@ -33,9 +33,12 @@
     "heading4": "professional Frontend Developer.",
     "heading5": "I am always ready to learn and challenge myself to create interfaces that are",
     "edu": "Education",
-    "job": "Faculty of Information Technology",
-    "school": "Cao Thang Technical College",
-    "school1": "(Full-time program)"
+    "job1": "Information Technology",
+    "school1": "Cao Thang Technical College",
+    "school1-1": "(Full-time program)",
+    "job2": "Computer Repair and Assembly",
+    "school2": "Hoa Binh Xuan Loc College",
+    "school2-1": "(Full-time program)"
   },
   "skill": {
     "title": "Skills"
@@ -274,10 +277,10 @@
     "li3": "For me,",
     "li4": "code is not just a technique but also an art -",
     "li5": "where every small detail on the interface affects the user experience.",
-    "li6": "Since January 2025, I have been focused on",
+    "li6": "Since July 2024, I have been focused on",
     "li7": "learning Frontend",
     "li8": "systematically with the goal of",
-    "li9": "applying for my first job in July 2025.",
+    "li9": "applying for my first job in July 2026.",
     "li99": "",
     "li10": "To achieve that, I am building",
     "li11": "real-world projects",

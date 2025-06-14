@@ -1,15 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
-//import AnimationLottie from "@/components/share/animation-lottie";
 import { useTranslation } from "react-i18next";
-
 import avatarImg1 from "@assets/about.jpg";
-//import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
-//import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
-//import GlowCard from "components/share/glow-card";
-//import { FaGraduationCap } from "react-icons/fa6";
 import Divider from "@components/sections/divider";
-//import { APP_DATA } from "helpers/data";
-//import SocialMedia from "components/sections/social.media";
 import Experience from "@components/sections/experience";
 
 const About = () => {
@@ -19,7 +11,7 @@ const About = () => {
       {/* Ảnh đại diện ở trên */}
       <Row className="d-flex justify-content-center text-center">
         <Col xs={12} md={6}>
-          <img src={avatarImg1} className="about-image" alt="個人写真" />
+          <img src={avatarImg1} className="about-image" />
         </Col>
       </Row>
 
@@ -27,7 +19,6 @@ const About = () => {
       <Row className="about-content">
         <Col xs={12}>
           <h3 className="mb-4 text-center">
-            {" "}
             <span className="brand-red"></span>
           </h3>
 
@@ -59,7 +50,7 @@ const About = () => {
               {t("about.li99")}
             </li>
             <li>
-              {t("about.li10")} <strong>5 {t("about.li11")}</strong>{" "}
+              {t("about.li10")} <strong>1 {t("about.li11")}</strong>{" "}
               {t("about.li12")}
             </li>
             <li>
@@ -101,6 +92,7 @@ const About = () => {
         </Col>
       </Row>
 
+      {/* Work Experience */}
       <Divider />
       <section>
         <Container>
@@ -108,67 +100,7 @@ const About = () => {
         </Container>
       </section>
 
-      {/* <Row>
-
-                <Col md={6} xs={12} className="d-none d-md-flex align-items-center justify-content-center mt-md-5 mt-3">
-                    <AnimationLottie
-                        width="50%"
-                        //animation with rp => convert sang text
-                        // https://github.com/airbnb/lottie-web/issues/2070
-                        animationPath={JSON.parse(DEVELOPMENT_LOTTIE)}
-                    />
-                </Col>
-                <Col md={6} xs={12} className="mt-md-5 mt-3">
-                    <div className="d-flex flex-column align-items-center gap-3">
-                        <div>
-                            <h4 className="text-center brand-red">Education</h4>
-                        </div>
-                        <div>
-                            <GlowCard identifier={`experience-5`}>
-                                <div className="p-3 relative">
-                                    <div className="experience-container">
-                                        <div className="duration-text">
-                                            <p>20xx-20xx</p>
-                                        </div>
-                                        <div className="details">
-                                            <div className="icon">
-                                                <FaGraduationCap size={36} />
-                                            </div>
-                                            <div className="info">
-                                                <p className="title">Practical Engineer</p>
-                                                <p className="company">Hanoi College of Economics and Technology</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </GlowCard>
-                        </div>
-                    </div>
-                </Col>
-            </Row> */}
-
       <Divider />
-      {/* <Row>
-                <Col md={6} xs={12} className=" mt-md-5 mt-3">
-                    <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
-                    <SocialMedia
-                        github={APP_DATA.GITHUB_URL}
-                        email={APP_DATA.EMAIL}
-                        phone={APP_DATA.PHONE}
-                        line={APP_DATA.LINE_URL}
-                        facebook={APP_DATA.FACEBOOK_URL}
-                    />
-                </Col>
-                <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
-                    <AnimationLottie
-                        width="50%"
-                        //animation with rp => convert sang text
-                        // https://github.com/airbnb/lottie-web/issues/2070
-                        animationPath={JSON.parse(CONTACT_LOTTIE)}
-                    />
-                    <h4 className="text-center">Contact me</h4>
-                </Col>
-            </Row> */}
       <div className="mb-5"></div>
     </>
   );

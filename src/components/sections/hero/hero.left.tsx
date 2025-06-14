@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 import "./hero.scss";
 import ResizeButton from "@components/sections/resize.button";
 import { APP_DATA } from "@helpers/data";
-import { MdFileDownload } from "react-icons/md";
 import { AiFillFire } from "react-icons/ai";
+import { FaEye } from "react-icons/fa6";
 
 interface IProps {
   scrollToSkillSection: () => void;
@@ -19,7 +19,7 @@ const HeroLeft = (props: IProps) => {
   };
   const handleDownloadCV = () => {
     openInNewTab(
-      "https://drive.google.com/file/d/1_pTKRPIsbq3c9rW1nFxrRZmwdiYDuB_P/view?usp=sharing",
+      "https://drive.google.com/file/d/1O8rhk4pKhfBShATBdd6mQYV70uwtR0Hj",
     );
   };
   return (
@@ -55,7 +55,6 @@ const HeroLeft = (props: IProps) => {
           github={APP_DATA.GITHUB_URL}
           email={APP_DATA.EMAIL}
           phone={APP_DATA.PHONE}
-          line={APP_DATA.LINE_URL}
           facebook={APP_DATA.FACEBOOK_URL}
         />
       </div>
@@ -73,7 +72,7 @@ const HeroLeft = (props: IProps) => {
         />
         <ResizeButton
           btnText={t("heroSection.cv")}
-          btnIcons={<MdFileDownload />}
+          btnIcons={<FaEye />}
           onClick={handleDownloadCV}
           btnStyle={{
             color: "#fff",

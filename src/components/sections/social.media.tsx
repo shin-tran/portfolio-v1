@@ -1,16 +1,14 @@
 import { FaFacebook, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa6";
-import { SiLine } from "react-icons/si";
 
 interface IProps {
   github: string;
   email: string;
   phone: string;
-  line: string;
   facebook: string;
 }
 
 const SocialMedia = (props: IProps) => {
-  const { github, email, phone, line, facebook } = props;
+  const { github, email, phone, facebook } = props;
 
   return (
     <div className="d-flex my-4 items-center gap-3">
@@ -36,15 +34,6 @@ const SocialMedia = (props: IProps) => {
         title="Gọi điện"
       >
         <FaPhone size={30} />
-      </a>
-      <a
-        href={line}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="highlight social-icon"
-        title="Line"
-      >
-        <SiLine size={30} />
       </a>
       <a
         href={facebook}
