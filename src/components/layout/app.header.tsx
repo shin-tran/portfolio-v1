@@ -153,7 +153,7 @@ function AppHeader() {
 
             <NavDropdown
               title={
-                <div className="nav-text d-flex gap-2">
+                <div className="nav-text d-flex align-items-center gap-2">
                   <img
                     style={{ height: 20, width: 20 }}
                     src={i18n.resolvedLanguage === "en" ? usFlag : viFlag}
