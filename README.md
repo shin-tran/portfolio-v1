@@ -1,6 +1,6 @@
 # 🌟 Front-end Developer Portfolio
 
-![Portfolio Screenshot]()
+![Portfolio Screenshot](/public/demo-project.png)
 
 This is my personal portfolio website, built to showcase my Front-end skills and projects. It features multi-language support (English & Vietnamese), dark/light theme toggle, responsive design, and a project modal with detailed descriptions — all powered by **React + TypeScript**.
 
